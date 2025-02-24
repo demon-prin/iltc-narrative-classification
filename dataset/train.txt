@@ -1,0 +1,2 @@
+EN_TEST_2.txt	CC: Criticism of climate movement	CC: Criticism of climate movement: Ad hominem attacks on key activists
+EN_TEST.txt	URW: Speculating war outcomes	URW: Speculating war outcomes: Russian army is collapsing
