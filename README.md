@@ -40,6 +40,8 @@ torch
 matplotlib
 transformers
 ```
+### Pre-trained networks
+The used neural networks for final submissions are avaiable in this [Google drive](https://drive.google.com/drive/folders/1Xso4r99qLtRA2rlpWzOZch48CBKvnCmM?usp=sharing) folder, and can be loaded from the main file, you can review them using keras summary functionalities.
 
 ### Old Model
-Through, uncommented and not reviewed,in ```2024``` folder its present the version of the model used for 2024 post task(after the end of the competition) 4-2a and 2b, as can be seen the 2025 model its an edit of post task 2024 model.
+Through, uncommented and not reviewed,in ```2024``` folder its present the version of the model used for 2024 post competition.
