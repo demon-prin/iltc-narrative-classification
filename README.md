@@ -3,7 +3,7 @@ iltc-narrative-classification
 
 # Project Overview  
 
-This project is designed to process and classify narrative structures using deep learning techniques for Semeval2025 task 10-2. The main file to run is **begin25.ipynb**, which has been tested on Python 3.12.6 and requires Jupyter Notebook with a Python kernel. You can modify the variables within this file to customize the model according to your requirements. The project has been tested only on Windows 11.
+This project is designed to process and classify narrative structures using deep learning techniques for [Semeval2025 task 10-2](https://propaganda.math.unipd.it/semeval2025task10/). The main file to run is **begin25.ipynb**, which has been tested on Python 3.12.6 and requires Jupyter Notebook with a Python kernel. You can modify the variables within this file to customize the model according to your requirements. The project has been tested only on Windows 11.
 
 ## Dataset Structure  
 
