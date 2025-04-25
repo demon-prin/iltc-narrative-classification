@@ -111,10 +111,10 @@ def read_and_evaluate(prediction_file, gold_file, classes_file_coarse, classes_f
     # Calculate metrics
     f1_c, f1_sd_c, conf_m_c = evaluate(y_true_coarse, y_pred_coarse, classes_coarse)
     f1_f, f1_sd_f, conf_m_f = evaluate(y_true_fine, y_pred_fine, classes_fine)
-    conf_m_f = [(x,classes_fine[idx]) for idx,x in enumerate(conf_m_f) if not (x[0][1] == 0 and x[1][0] == 0 and x[0][1] == 0 and x[1][1] == 0)]
+    conf_m_f = [(x,classes_fine[idx]) for idx,x in enumerate(conf_m_f) if not (x[0][1] == 0 and x[1][0] == 0 and x[1][1] == 0)]
     num_classes = len(conf_m_f)
     print(num_classes)
-    f, axes = plt.subplots(int(np.sqrt(num_classes)+1), int(np.sqrt(num_classes)+1),figsize=(1,1))  # Riduci le dimensioni della figura
+    f, axes = plt.subplots(int(np.sqrt(num_classes)+1), int(np.sqrt(num_classes)+1),figsize=(1,1))  
     axes = axes.ravel()
     
     for i in range(num_classes):
